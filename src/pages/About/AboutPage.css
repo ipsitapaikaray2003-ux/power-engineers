@@ -1,0 +1,729 @@
+/* ===========================================
+   ABOUT PAGE - PART 1
+   Hero Banner + Company Overview
+=========================================== */
+
+.about-banner{
+    width:100%;
+    height:420px;
+    background:linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+    url("../../assets/heroo2.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.about-overlay{
+    max-width:850px;
+    padding:20px;
+}
+
+.about-overlay span{
+    display:inline-block;
+    background:#16a34a;
+    color:#fff;
+    padding:10px 25px;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.about-overlay h1{
+    font-size:60px;
+    font-weight:800;
+    color:#fff;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.about-overlay p{
+    font-size:20px;
+    color:#f1f5f9;
+    line-height:1.8;
+}
+
+/* ===========================================
+   COMPANY SECTION
+=========================================== */
+
+.company-section{
+    padding:100px 8%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+    background:#fff;
+}
+
+.company-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.company-image img:hover{
+    transform:scale(1.03);
+}
+
+.section-tag{
+    display:inline-block;
+    background:#e8f8ee;
+    color:#16a34a;
+    padding:10px 24px;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:18px;
+}
+
+.company-content h2{
+    font-size:46px;
+    color:#111827;
+    margin-bottom:25px;
+    line-height:1.3;
+    font-weight:800;
+}
+
+.company-content p{
+    color:#6b7280;
+    line-height:1.9;
+    font-size:17px;
+    margin-bottom:18px;
+}
+
+/* ===========================================
+   COMPANY STATS
+=========================================== */
+
+.company-stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:40px;
+}
+
+.stat-box{
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.stat-box h3{
+    font-size:38px;
+    color:#16a34a;
+    margin-bottom:10px;
+    font-weight:800;
+}
+
+.stat-box p{
+    margin:0;
+    color:#374151;
+    font-size:16px;
+    font-weight:600;
+}
+
+/* ===========================================
+   TABLET
+=========================================== */
+
+@media(max-width:992px){
+
+.company-section{
+    grid-template-columns:1fr;
+}
+
+.about-overlay h1{
+    font-size:46px;
+}
+
+.company-content h2{
+    font-size:38px;
+}
+
+.company-stats{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+/* ===========================================
+   MOBILE
+=========================================== */
+
+@media(max-width:768px){
+
+.about-banner{
+    height:320px;
+    padding:20px;
+}
+
+.about-overlay h1{
+    font-size:34px;
+}
+
+.about-overlay p{
+    font-size:16px;
+}
+
+.company-section{
+    padding:70px 20px;
+    grid-template-columns:1fr;
+    gap:40px;
+}
+
+.company-content h2{
+    font-size:30px;
+}
+
+.company-content p{
+    font-size:15px;
+}
+
+.company-stats{
+    grid-template-columns:1fr;
+}
+
+.stat-box{
+    padding:25px;
+}
+
+}
+/* ===========================================
+   OUR JOURNEY
+=========================================== */
+
+.journey-section{
+    padding:100px 8%;
+    background:#f8fafc;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+.journey-left h2{
+    font-size:44px;
+    color:#111827;
+    margin:20px 0;
+    line-height:1.3;
+    font-weight:800;
+}
+
+.journey-left p{
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.journey-right{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.journey-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+    border-top:5px solid #16a34a;
+}
+
+.journey-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.journey-card h3{
+    font-size:42px;
+    color:#16a34a;
+    margin-bottom:10px;
+}
+
+.journey-card h4{
+    font-size:22px;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.journey-card p{
+    color:#6b7280;
+    line-height:1.8;
+}
+
+/* ===========================================
+   VISION & MISSION
+=========================================== */
+
+.vision-section{
+    padding:100px 8%;
+    background:#fff;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+}
+
+.vision-card{
+    background:#fff;
+    border-radius:20px;
+    padding:50px 40px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.vision-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.vision-icon{
+    width:90px;
+    height:90px;
+    margin:auto;
+    background:#16a34a;
+    color:#fff;
+    font-size:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.vision-card h3{
+    font-size:30px;
+    color:#111827;
+    margin-bottom:18px;
+}
+
+.vision-card p{
+    color:#6b7280;
+    line-height:1.9;
+    font-size:16px;
+}
+
+/* ===========================================
+   CORE VALUES
+=========================================== */
+
+.values-section{
+    padding:100px 8%;
+    background:#f8fafc;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-heading span{
+    display:inline-block;
+    background:#e8f8ee;
+    color:#16a34a;
+    padding:10px 24px;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:18px;
+}
+
+.section-heading h2{
+    font-size:46px;
+    color:#111827;
+    font-weight:800;
+}
+
+.values-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.value-box{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.value-box:hover{
+    background:#16a34a;
+    transform:translateY(-10px);
+}
+
+.value-box h3{
+    color:#111827;
+    font-size:24px;
+    margin-bottom:15px;
+    transition:.3s;
+}
+
+.value-box p{
+    color:#6b7280;
+    line-height:1.8;
+    transition:.3s;
+}
+
+.value-box:hover h3,
+.value-box:hover p{
+    color:#fff;
+}
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media(max-width:992px){
+
+.journey-section,
+.vision-section{
+    grid-template-columns:1fr;
+}
+
+.journey-right{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.values-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.section-heading h2{
+    font-size:38px;
+}
+
+}
+
+@media(max-width:768px){
+
+.journey-section,
+.vision-section,
+.values-section{
+    padding:70px 20px;
+}
+
+.journey-left h2{
+    font-size:32px;
+}
+
+.journey-right{
+    grid-template-columns:1fr;
+}
+
+.values-grid{
+    grid-template-columns:1fr;
+}
+
+.section-heading h2{
+    font-size:30px;
+}
+
+.vision-card{
+    padding:35px 25px;
+}
+
+.value-box{
+    padding:30px 20px;
+}
+
+}
+/* ===========================================
+   MANUFACTURING FACILITY
+=========================================== */
+
+.facility-section{
+    padding:100px 8%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+    background:#fff;
+}
+
+.facility-content h2{
+    font-size:44px;
+    color:#111827;
+    margin:20px 0;
+    font-weight:800;
+    line-height:1.3;
+}
+
+.facility-content p{
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.facility-list{
+    list-style:none;
+    padding:0;
+    margin-top:25px;
+}
+
+.facility-list li{
+    font-size:17px;
+    color:#374151;
+    margin-bottom:18px;
+    font-weight:500;
+}
+
+.facility-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.facility-image img:hover{
+    transform:scale(1.03);
+}
+
+/* ===========================================
+   WHY CHOOSE
+=========================================== */
+
+.about-choose{
+    padding:100px 8%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+    background:#f8fafc;
+}
+
+.choose-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.15);
+}
+
+.choose-content h2{
+    font-size:42px;
+    color:#111827;
+    margin:20px 0 40px;
+}
+
+.choose-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.choose-box{
+    background:#fff;
+    padding:28px;
+    border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.choose-box:hover{
+    background:#16a34a;
+    transform:translateY(-8px);
+}
+
+.choose-box h3{
+    color:#111827;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.choose-box p{
+    color:#6b7280;
+    line-height:1.8;
+    transition:.3s;
+}
+
+.choose-box:hover h3,
+.choose-box:hover p{
+    color:#fff;
+}
+
+/* ===========================================
+   INDUSTRIES
+=========================================== */
+
+.industry-section{
+    padding:100px 8%;
+    background:#fff;
+}
+
+.industry-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:60px;
+}
+
+.industry-card{
+    background:#16a34a;
+    color:#fff;
+    padding:45px 30px;
+    text-align:center;
+    border-radius:18px;
+    font-size:22px;
+    font-weight:700;
+    transition:.35s;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.industry-card:hover{
+    transform:translateY(-10px);
+    background:#111827;
+}
+
+/* ===========================================
+   QUALITY
+=========================================== */
+
+.quality-section{
+    padding:100px 8%;
+    text-align:center;
+    background:#f8fafc;
+}
+
+.quality-section h2{
+    font-size:46px;
+    color:#111827;
+    margin:25px auto;
+    max-width:800px;
+    line-height:1.3;
+}
+
+.quality-section p{
+    max-width:850px;
+    margin:auto;
+    color:#6b7280;
+    line-height:1.9;
+    font-size:17px;
+}
+
+/* ===========================================
+   CTA
+=========================================== */
+
+.about-cta{
+    padding:90px 8%;
+    background:linear-gradient(135deg,#16a34a,#15803d);
+    text-align:center;
+}
+
+.about-cta h2{
+    color:#fff;
+    font-size:48px;
+    margin-bottom:20px;
+    font-weight:800;
+}
+
+.about-cta p{
+    color:#f3f4f6;
+    font-size:18px;
+    line-height:1.8;
+    max-width:700px;
+    margin:0 auto 35px;
+}
+
+.about-btn{
+    display:inline-block;
+    padding:18px 42px;
+    background:#fff;
+    color:#16a34a;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.35s;
+}
+
+.about-btn:hover{
+    background:#111827;
+    color:#fff;
+}
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media(max-width:992px){
+
+.facility-section,
+.about-choose{
+    grid-template-columns:1fr;
+}
+
+.choose-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.industry-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.quality-section h2,
+.about-cta h2{
+    font-size:36px;
+}
+
+}
+
+@media(max-width:768px){
+
+.facility-section,
+.about-choose,
+.industry-section,
+.quality-section,
+.about-cta{
+    padding:70px 20px;
+}
+
+.facility-content h2,
+.choose-content h2,
+.quality-section h2,
+.about-cta h2{
+    font-size:30px;
+}
+
+.choose-grid{
+    grid-template-columns:1fr;
+}
+
+.industry-grid{
+    grid-template-columns:1fr;
+}
+
+.industry-card{
+    font-size:18px;
+    padding:35px 20px;
+}
+
+.about-cta p,
+.quality-section p{
+    font-size:15px;
+}
+
+.about-btn{
+    padding:15px 35px;
+}
+
+}
