@@ -118,13 +118,7 @@ function WhyChoose() {
 
                 <p>{item.text}</p>
 
-                <a href="#">
-
-                  Learn More
-
-                  <FaArrowRight />
-
-                </a>
+                
 
               </motion.div>
 
