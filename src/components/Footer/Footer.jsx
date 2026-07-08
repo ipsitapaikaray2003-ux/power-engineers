@@ -49,7 +49,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=2216/7+Vivekanand+Nagar+Korochi+Ichalkaranji+416109"
+              href="https://www.google.com/maps/place/16%C2%B042'53.7%22N+74%C2%B026'59.9%22E/"
               target="_blank"
               rel="noopener noreferrer"
               title="Location"
@@ -144,15 +144,17 @@ function Footer() {
           <p>
             <FaMapMarkerAlt />
             <a
-              href="https://www.google.com/maps/search/?api=1&query=2216/7+Vivekanand+Nagar+Korochi+Ichalkaranji+416109"
+              href="https://www.google.com/maps/place/16%C2%B042'53.7%22N+74%C2%B026'59.9%22E/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              2216/7 Vivekanand Nagar,
-              <br />
-              Korochi, Ichalkaranji,
-              <br />
-              Maharashtra - 416109
+             Khanjire Industrial Estate, Near Radha Kanhaiya process
+  <br />
+  Ichalkaranji
+  <br />
+   Khotwadi, - 416116
+  <br />
+  Maharashtra, India
             </a>
           </p>
         </div>

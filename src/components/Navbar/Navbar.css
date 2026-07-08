@@ -25,7 +25,7 @@ a{
     top:0;
     left:0;
     width:100%;
-    padding:18px 6%;
+    padding:15px 6%;
     background:transparent;
     transition:all .35s ease;
     z-index:9999;
@@ -42,18 +42,32 @@ a{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:90px;
+    height:100px;
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+/* ===========================
+   LOGO
+=========================== */
+
+.brand{
+    display:flex;
+    align-items:center;
 }
 
 .brand img{
-    width:80px;
-    transition:.35s;
+    width:200px;      /* Pehle 110px tha */
+    height:auto;
+    object-fit:contain;
+    transition:.35s ease;
 }
 
 .brand img:hover{
-    transform:scale(1.05);
+    transform:scale(1.08) rotate(-3deg);
 }
-
 /* ===========================
    NAVIGATION
 =========================== */
@@ -128,6 +142,7 @@ a{
 .dropdown:hover .arrow{
     transform:rotate(180deg);
 }
+
 /* ==========================================
    PREMIUM DROPDOWN MENU
 ========================================== */
@@ -135,9 +150,7 @@ a{
 .dropdown-menu{
 
     position:absolute;
-
     top:65px;
-
     left:0;
 
     min-width:250px;
@@ -204,14 +217,11 @@ a{
 
 }
 
-/* Divider */
-
 .dropdown-menu a:not(:last-child){
 
     border-bottom:1px solid #f3f4f6;
 
 }
-
 /* ==========================================
    QUOTE BUTTON
 ========================================== */
@@ -219,9 +229,7 @@ a{
 .quote-btn{
 
     display:inline-flex;
-
     align-items:center;
-
     justify-content:center;
 
     padding:15px 34px;
@@ -281,24 +289,35 @@ a{
     border-left:4px solid #16a34a;
 
 }
+
 /* ==========================================
    MOBILE NAVBAR
 ========================================== */
 
 .menu-icon{
+
     display:none;
+
     font-size:30px;
+
     color:#fff;
+
     cursor:pointer;
+
     transition:.3s;
+
 }
 
 .navbar.scrolled .menu-icon{
+
     color:#111827;
+
 }
 
 .overlay-bg{
+
     display:none;
+
 }
 
 /* ==========================================
@@ -316,18 +335,35 @@ a{
         display:none;
     }
 
+    .container{
+        height:90px;
+    }
+
+    /* Mobile Logo */
+    .brand img{
+        width:90px;
+    }
+
     .nav{
 
         position:fixed;
+
         top:0;
+
         right:-100%;
+
         width:330px;
+
         height:100vh;
+
         background:#fff;
 
         display:flex;
+
         flex-direction:column;
+
         align-items:flex-start;
+
         justify-content:flex-start;
 
         padding:120px 30px 40px;
@@ -351,8 +387,11 @@ a{
     .nav>a{
 
         width:100%;
+
         color:#111827;
+
         padding:18px 0;
+
         border-bottom:1px solid #ececec;
 
     }
@@ -366,10 +405,13 @@ a{
     .dropdown-title{
 
         width:100%;
+
         color:#111827;
 
         display:flex;
+
         justify-content:space-between;
+
         align-items:center;
 
         padding:18px 0;
@@ -377,8 +419,6 @@ a{
         border-bottom:1px solid #ececec;
 
     }
-
-    /* Mobile Dropdown */
 
     .dropdown-menu{
 
@@ -439,9 +479,11 @@ a{
         position:fixed;
 
         top:0;
+
         left:0;
 
         width:100%;
+
         height:100%;
 
         background:rgba(0,0,0,.45);
@@ -461,11 +503,12 @@ a{
 @media(max-width:576px){
 
     .container{
-        height:80px;
+        height:85px;
     }
 
+    /* Small Mobile Logo */
     .brand img{
-        width:60px;
+        width:80px;
     }
 
     .nav{
@@ -479,19 +522,27 @@ a{
 ========================================== */
 
 .dropdown-menu{
+
     animation:fadeDown .35s ease;
+
 }
 
 @keyframes fadeDown{
 
     from{
+
         opacity:0;
+
         transform:translateY(20px);
+
     }
 
     to{
+
         opacity:1;
+
         transform:translateY(0);
+
     }
 
 }
@@ -501,12 +552,16 @@ a{
 ========================================== */
 
 .brand img:hover{
+
     transform:scale(1.08) rotate(-3deg);
+
 }
 
 .nav a,
 .dropdown-title,
 .dropdown-menu a,
 .quote-btn{
+
     transition:all .3s ease;
+
 }

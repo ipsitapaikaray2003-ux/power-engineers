@@ -92,18 +92,28 @@ margin-bottom:20px;
 text-align:center;
 }
 
-.hero-content h1{
+/* ===== HERO TITLE ===== */
+
+.hero-title{
 font-family:"Outfit",sans-serif;
 font-size:82px;
 font-weight:800;
 line-height:1.05;
 margin-bottom:25px;
 text-align:center;
+letter-spacing:6px;
+text-transform:uppercase;
 }
 
-.hero-content h1 span{
+.hero-title .power{
 color:#22c55e;
 }
+
+.hero-title .engineers{
+color:#ffffff;
+}
+
+/* ====================== */
 
 .hero-content p{
 font-size:18px;
@@ -172,8 +182,9 @@ opacity:1;
 
 @media(max-width:992px){
 
-.hero-content h1{
+.hero-title{
 font-size:58px;
+letter-spacing:4px;
 }
 
 .hero-content h4{
@@ -193,8 +204,9 @@ padding:0 25px;
 
 @media(max-width:768px){
 
-.hero-content h1{
+.hero-title{
 font-size:42px;
+letter-spacing:2px;
 }
 
 .hero-content h4{

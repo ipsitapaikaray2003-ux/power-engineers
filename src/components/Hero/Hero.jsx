@@ -86,7 +86,10 @@ function Hero() {
                     WELCOME TO
                   </span>
 
-                  <h4>POWER ENGINEERS</h4>
+                  <h1 className="hero-title">
+  <span className="power">POWER</span>{" "}
+  <span className="engineers">ENGINEERS</span>
+</h1>
 
                   <h1>
                     {slide.heading}

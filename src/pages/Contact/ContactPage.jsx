@@ -75,9 +75,9 @@ Call Us
 
 </a>
 
-<a href="tel:+919337120890">
+<a href="tel:+91 8006200062">
 
-+91 93371 20890
++91 8006200062
 
 </a>
 
@@ -101,15 +101,15 @@ Email Us
 
 </h3>
 
-<a href="mailto:powerengineers@gmail.com">
+<a href="mailto:mvpowerengineers@yahoo.com">
 
-powerengineers@gmail.com
+mvpowerengineers@yahoo.com
 
 </a>
 
-<a href="mailto:info@powerengineers.co.in">
+<a href="mailto:powerengineers.sales@gmail.com">
 
-info@powerengineers.co.in
+powerengineers.sales@gmail.com
 
 </a>
 
@@ -134,15 +134,15 @@ Our Office
 </h3>
 
 <a
-  href="https://www.google.com/maps/search/2216/7+Vivekanand+Nagar+Korochi+Ichalkaranji+416109"
+  href="https://www.google.com/maps/place/16%C2%B042'53.7%22N+74%C2%B026'59.9%22E/"
   target="_blank"
   rel="noreferrer"
 >
-  2216/7 Vivekanand Nagar
+   Khanjire Industrial Estate, Near Radha Kanhaiya process
   <br />
-  Korochi
+  Ichalkaranji
   <br />
-  Ichalkaranji - 416109
+   Khotwadi, - 416116
   <br />
   Maharashtra, India
 </a>
@@ -271,15 +271,16 @@ Chat With Us
   {/* RIGHT MAP */}
 
   <div className="contact-map">
-
-    <iframe
-  title="Power Engineers Location"
-  src="https://www.google.com/maps?q=2216/7+Vivekanand+Nagar+Korochi+Ichalkaranji+416109&output=embed"
-  loading="lazy"
-  allowFullScreen
-></iframe>
-
-  </div>
+  <iframe
+    title="Power Engineers Location"
+    src="https://maps.google.com/maps?q=16.714907,74.449972&z=16&output=embed"
+    width="100%"
+    height="450"
+    style={{ border: 0 }}
+    loading="lazy"
+    allowFullScreen
+  ></iframe>
+</div>
 
 </section>
       {/* ================= WHY CHOOSE US ================= */}
